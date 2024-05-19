@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Rasperry Pi
+a.out
+.lgd-nfy()
+not_used_func/
+
 # Distribution / packaging
 .Python
 build/

@@ -1,0 +1,22 @@
+[
+    {
+        "value_change": 1.0,
+        "angle_change": "30"
+    },
+    {
+        "value_change": -0.2,
+        "angle_change": "10"
+    },
+    {
+        "value_change": -1,
+        "angle_change": "-30"
+    },
+    {
+        "value_change": -0.5,
+        "angle_change": "-15"
+    },
+    {
+        "value_change": 0.5,
+        "angle_change": "15"
+    }
+]
