@@ -1,6 +1,11 @@
 # ECE445/ME470: Intelligent Pour-Over Coffee Machine
 > Team #15: Intelligent Coffee Team © PhiloCoffee Club
 
+- System Architecter: Jie Wang
+- Program Manager: Jingyuan Huang
+- Mechanical Architecter: Qiuxubin
+- Financial Analyst: Rucheng Ke
+
 ## coffee_system
 Python-based control system for the senior design project
 
@@ -38,60 +43,7 @@ smart_coffee_machine/
     └── protocol.py       # 通信协议模块，定义数据交换格式和协议
 ```
 
-
-
-
-## Todo List: 
-1. Set up terminal right click 
-(open terminal here, find it in the offical document)
-2. Set up SSH. DON'T ASK GPT, find it out by Y2B / bilibili video 
-& official doc
-3. Set up the GPIO Program:
-- [x] LED blink, same as lab 7 
-- [x] timer 
-- [x] display, OLED 
-- [x] display, 4-digit
-    - [X] 增加小数点
-
-- [x] USER IO: terminal simulate the whole using process, 
-without any hardware (first)
-
-Jie Wang: take care of the electronic part
-1. Servo Motor setup
-- [x] Code
-- [x] Mech setup 
-
-
-## Final Week
-
-- [x]  pump 电控代码 30min
-    - [x]  测试pump 流速 30min
-    - [x]  需求：电压变速 1h
-    - [x]  数字电位计可以通过I2C或SPI通信协议与树莓派通信，实现类似传统滑动变阻器的功能，但其优点是可以通过软件控制。
-    - **数字电位计**：比如AD5206或MCP4131。
-    - **适配板**：以方便与树莓派的接口连接。
-- [x]  motor 电控代码 30 min
-    - [x]  需求：时间，力度控制
-    - [x]  需求: 能正反转
-    - [x]  确定电路设计
-    - [x]  [树莓派4B|控制一路继电器，控制直流电机正反转（帮助自己记忆）_1路继电器控制直流电机csdn-CSDN博客](https://blog.csdn.net/abcde123qw123/article/details/114643980)
-- [x]  servo 最终版代码
-    - [x]  测试需要的差值dict
-    - [x]  https://chat.openai.com/share/dd1c0a9b-0165-4884-93d3-91bdc7226a7d
-- [x]  用户提示流程的文字
-- [x]  咖啡冲煮方案的固定（找mzc 问冲煮流程）：
-    - [x]  light roast
-    - [x]  dark roast
-    - [x]  hot water
-    - [x]  bean-water-ratio 计算代码 func
-- [x]  电源组装到一起
-    - [x]  PCB?
-    - [x]  测试FSM ： 从亮灯到亮电机
-    
-    耗时很长的程序忘加nohup就运行了怎么办？ - ipid君的回答 - 知乎
-    https://www.zhihu.com/question/586298694/answer/2991647868
-    
-- [x]  固定整个工程的基座
-    - [x]  固定各个UserIO 接口的位置
-
-- [x]  写final report ： 成败和经验教训
+## TODO:
+1. Open source the mech design as well. 
+2. Demo video and gif for the project
+3. Project website construction
