@@ -1,10 +1,26 @@
-# ECE445/ME470: Intelligent Pour-Over Coffee Machine
+# Senior Design: Intelligent Pour-Over Coffee Machine
 > Team #15: Intelligent Coffee Team © PhiloCoffee Club
+
 
 - System Architecter: Jie Wang
 - Program Manager: Jingyuan Huang
 - Mechanical Architecter: Qiuxubin
 - Financial Analyst: Rucheng Ke
+
+## Abstract
+
+This report presents the implementation of an Intelligent Pour-Over Coffee Machine, a senior design
+project aimed at automating the coffee brewing process to replicate professional barista techniques. The
+system, controlled by a Raspberry Pi 5B, integrates 7 subsystems including brewing, control, sensor, power,
+pumping, heating, and user interface. Besides closed-loop control over the coffee brewing, the machine also
+involves factors such as temperature, pH, and weight sensors to ensure the coffee’s quality and consistency.
+With fully implemented unit tests and whole-system verification, our system can produce tasty, drinkable
+coffee with varying settings. The project highlights the potential for further advances in the specialty coffee
+market. As a senior design project by PhiloCoffee Club, it shows a blend of truth-seeking innovation and
+learning by labor. The implementations are open-sourced here.
+
+**Keywords: pour-over coffee, automated coffee brewing, coffee machine, sensory experience,
+specialty coffee market, PhiloCoffee Club**
 
 ## coffee_system
 Python-based control system for the senior design project
@@ -47,3 +63,6 @@ smart_coffee_machine/
 1. Open source the mech design as well. 
 2. Demo video and gif for the project
 3. Project website construction
+
+
+All rights reserved by PhiloCoffee Club ©.
